@@ -30,4 +30,6 @@ urlpatterns = [
     path('follow/control/technical/', include('follow_control_technical.urls')),
     # Employee
     path('employee/', include('employee.urls')),
+    path('nombre_de_la_app/', include('nombre_de_la_app.urls')),  # Incluye las rutas de la app 'blog'
+    
 ]

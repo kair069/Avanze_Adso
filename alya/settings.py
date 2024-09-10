@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'hub',
     'employee',
     'widget_tweaks',
+    'nombre_de_la_app',  # Asegúrate de agregar el nombre de tu app aquí
 ]
 
 MIDDLEWARE = [

@@ -94,6 +94,18 @@
             <h2>Conciliaciones</h2>
         </a>
     </div>
+    <main>
+        <h1>Bienvenido al Hub</h1>
+        <ul>
+            <li><a href="{% url 'post_list' %}">Lista de Posts</a></li>
+            <li><a href="{% url 'post_create' %}">Crear Post</a></li>
+            <li><a href="{% url 'example_view' %}">Vista de nombre_de_la_app</a></li>
+        </ul>
+
+        <!-- Bloque de contenido que será reemplazado por las plantillas hijas -->
+        {% block content %}
+        {% endblock %}
+    </main>
 
     <h2 class="category-title">Gestión de Proyectos</h2>
     <div class="app-grid">
